@@ -133,12 +133,12 @@
       },
       {
         "internalType": "uint256",
-        "name": "_maxCapacity",
+        "name": "_deposit",
         "type": "uint256"
       },
       {
         "internalType": "uint256",
-        "name": "_deposit",
+        "name": "_maxCapacity",
         "type": "uint256"
       },
       {

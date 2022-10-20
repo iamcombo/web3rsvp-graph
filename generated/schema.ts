@@ -137,15 +137,6 @@ export class Event extends Entity {
     this.set("eventTimestamp", Value.fromBigInt(value));
   }
 
-  get maxCapacity(): BigInt {
-    let value = this.get("maxCapacity");
-    return value!.toBigInt();
-  }
-
-  set maxCapacity(value: BigInt) {
-    this.set("maxCapacity", Value.fromBigInt(value));
-  }
-
   get deposit(): BigInt {
     let value = this.get("deposit");
     return value!.toBigInt();
@@ -153,6 +144,15 @@ export class Event extends Entity {
 
   set deposit(value: BigInt) {
     this.set("deposit", Value.fromBigInt(value));
+  }
+
+  get maxCapacity(): BigInt {
+    let value = this.get("maxCapacity");
+    return value!.toBigInt();
+  }
+
+  set maxCapacity(value: BigInt) {
+    this.set("maxCapacity", Value.fromBigInt(value));
   }
 
   get paidOut(): boolean {

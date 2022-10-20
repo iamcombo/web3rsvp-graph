@@ -119,8 +119,8 @@
         "name": "_eventTimestamp",
         "type": "uint256"
       },
-      { "internalType": "uint256", "name": "_maxCapacity", "type": "uint256" },
       { "internalType": "uint256", "name": "_deposit", "type": "uint256" },
+      { "internalType": "uint256", "name": "_maxCapacity", "type": "uint256" },
       { "internalType": "string", "name": "_eventDataCID", "type": "string" }
     ],
     "name": "createNewEvent",

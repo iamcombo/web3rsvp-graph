@@ -310,11 +310,11 @@ export class CreateNewEventCall__Inputs {
     return this._call.inputValues[0].value.toBigInt();
   }
 
-  get _maxCapacity(): BigInt {
+  get _deposit(): BigInt {
     return this._call.inputValues[1].value.toBigInt();
   }
 
-  get _deposit(): BigInt {
+  get _maxCapacity(): BigInt {
     return this._call.inputValues[2].value.toBigInt();
   }
 

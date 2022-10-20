@@ -8,9 +8,9 @@ dataSources:
     name: Web3Rsvp
     network: mumbai
     source:
-      address: "0x593b496936791D774221086E4bd3948EbFBefdce"
+      address: "0xfC59E886cb585f504C171C888Fa22acbC8b3430b"
       abi: Web3Rsvp
-      startBlock: 28702905
+      startBlock: 28714415
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.6
