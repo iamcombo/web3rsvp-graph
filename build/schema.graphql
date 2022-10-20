@@ -7,8 +7,8 @@ type Event @entity {
   imageURL: String
   eventOwner: Bytes!
   eventTimestamp: BigInt!
-  deposit: BigInt!
   maxCapacity: BigInt!
+  deposit: BigInt!
   paidOut: Boolean!
   totalRSVPs: BigInt!
   totalConfirmedAttendees: BigInt!
